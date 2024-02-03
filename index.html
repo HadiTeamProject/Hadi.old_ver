@@ -114,9 +114,9 @@
           let accidentData = value.message.split(',');
     
           // Extract values for code, latitude, and longitude
-          let code = accidentData[0].trim();
-          let lat = parseFloat(accidentData[1].trim());
-          let lon = parseFloat(accidentData[2].trim());
+          let code = accidentData[2].trim();
+          let lat = parseFloat(accidentData[3].trim());
+          let lon = parseFloat(accidentData[4].trim());
     
           let message = document.createElement('h4');
           let heading = document.createElement('h2');
